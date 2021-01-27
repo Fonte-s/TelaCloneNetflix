@@ -4,6 +4,7 @@
 
 }
 
+/*Base*/
 *{
     margin:0;
     padding:0;
@@ -15,6 +16,7 @@ body{
 
     background-color: var(--preta);
     font-size:'Times New Roman', Times, serif;
+    color:white;
 
 }
 
@@ -47,4 +49,25 @@ header nav a{
 
 header nav a:hover{
     color:#fff;
+}
+
+/* Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100% ), url('/img/HouseOfCardsFundo.jpg');
+    height: 600px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 90px ;
+}
+
+.titulo{
+    font-size: 40px;
 }
